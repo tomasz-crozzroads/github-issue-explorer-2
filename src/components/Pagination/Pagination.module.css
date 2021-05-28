@@ -1,0 +1,42 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.listbox {
+  display: inline-flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.listitem {
+  align-items: center;
+  border-radius: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  height: 32px;
+  justify-content: center;
+  margin: 0 3px;
+  min-width: 32px;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.active {
+  background-color: lightgrey;
+  cursor: default;
+}
+
+.disabled {
+  color: lightgrey;
+  cursor: default;
+}
+
+.ellipsis {
+  cursor: default;
+}
+
+.listitem:not(.active):not(.disabled):not(.ellipsis):hover {
+  background-color: #eee;
+}

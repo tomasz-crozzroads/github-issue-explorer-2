@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  justify-content: flex-start;
+  margin: 16px 0;
+}
+
+.form div {
+  margin-right: 16px;
+}
+
+.form label {
+  margin-right: 4px;
+}

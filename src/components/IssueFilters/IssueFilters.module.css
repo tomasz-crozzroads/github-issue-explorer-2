@@ -1,0 +1,13 @@
+.filters {
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px 0;
+}
+
+.filters div {
+  margin-left: 16px;
+}
+
+.filters label {
+  margin-right: 4px;
+}

@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  width: 100%;
+}
+
+.details {
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  margin-left: 16px;
+  position: relative;
+
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.list {
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.overview {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}

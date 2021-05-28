@@ -1,0 +1,20 @@
+.button {
+  background-color: transparent;
+  border: none;
+}
+
+.button svg {
+  stroke: lightgrey;
+}
+
+.button:hover svg {
+  stroke: black;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.checked {
+  fill: yellow;
+}

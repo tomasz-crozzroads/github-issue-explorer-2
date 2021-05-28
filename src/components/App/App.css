@@ -1,0 +1,39 @@
+* {
+  font-family: Open-Sans, Helvetica, Sans-Serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.app > h1 {
+  padding-top: 16px;
+}
+
+.app > nav {
+  margin-top: 16px;
+}
+
+.app > nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.app > nav ul li:not(:last-child) {
+  margin-right: 16px;
+}
+
+.app > nav ul li a {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.app > nav ul li a:hover {
+  text-decoration: underline;
+}

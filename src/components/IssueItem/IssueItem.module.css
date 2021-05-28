@@ -1,0 +1,35 @@
+.item {
+  padding: 12px;
+}
+
+.item button {
+  position: absolute;
+  right: 10px;
+}
+
+.body {
+  background-color: #fff;
+  border: none;
+  font-family: sans-serif;
+  min-height: 600px;
+  margin-left: 16px;
+  max-width: calc(100% - 16px);
+  width: 100%;
+}
+
+.title {
+  color: #444;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0 0 8px;
+  text-align: left;
+}
+
+.comments,
+.created,
+.message,
+.owner,
+.updated {
+  margin: 0 0 6px;
+  text-align: left;
+}

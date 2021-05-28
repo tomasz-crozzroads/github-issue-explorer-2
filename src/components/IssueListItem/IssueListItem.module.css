@@ -1,0 +1,51 @@
+.listitem {
+  display: flex;
+  padding: 12px;
+}
+
+.listitem:hover {
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+.listitem:not(:first-child) {
+  border-top: 1px solid #cfcfcf;
+}
+
+.state {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+}
+
+.closed {
+  fill: #cb2431;
+}
+
+.open {
+  fill: #22863a;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.comments {
+  align-items: center;
+  display: flex;
+}
+
+.bookmarked {
+  align-items: center;
+  display: flex;
+  margin-left: 16px;
+}
